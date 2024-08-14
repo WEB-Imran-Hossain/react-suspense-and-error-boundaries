@@ -10,7 +10,7 @@ function App() {
   };
   return (
     <div>
-      <h1>React Suspense and Error Boundaries</h1>
+      <h1 className="text-2xl font-bold">React Suspense and Error Boundaries</h1>
       <div>
         <Suspense fallback={<h1>Loading...</h1>}>
           <PostSelector onSelectPost={handleSelectPost} />

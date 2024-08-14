@@ -8,7 +8,7 @@ const PostSelector = ({ onSelectPost }) => {
     const posts = resource.read();
     return (
         <div>
-            <select>
+            <select onChange={onSelectPost}>
                 <option value="">Select Post</option>
                 {
                     posts.map((post) => (
